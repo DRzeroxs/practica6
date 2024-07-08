@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/643/921/non_2x/silhouette-design-of-office-workers-doing-works-over-time-at-night-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 18px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+    }
+  
+  p[id="subtitulo"]{
+    margin: none;
+    display: inline;
+    font-size: 14px;
+    color: #d4dde6;
+  }
+  
+  p[id="description"]{
+    font-family: Arial;
+    max-width: 420px;
+    color: #ffffff;
+    background-color: rgba(44, 46, 66, 0.2);
+    padding: auto;
+  }
+  
+  p[for="titulo"]{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  form {
+    width: 600px;
+    max-width: 700px;
+    min-width: 300px;
+    background-color: rgba(61, 65, 121, 0.9);
+    margin: 0 auto;
+    padding-bottom: 2em;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+  }
+  
+  fieldset {
+    max-width: 500px;
+    border: none;
+    margin: auto;
+    padding: 2rem 0;
+    border-bottom: 3px solid #dadaeb;
+  }
+  
+  label[for="feature"]{
+    padding-bottom: 20px;
+    
+  }
+  
+  fieldset:last-of-type {
+    border: none;
+    margin-bottom: 10px;
+  
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    
+  }
+  
+  label[for="dropdown"]{
+    width: 102.8%;
+    
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    
+    
+  }
+  
+  input, textarea {
+    background-color: #57577e;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 2.5em;
+    font-size: 16px;
+    padding-left: 10px;
+    
+  
+  }
+  
+  input[type="radio"]:last-child{
+    padding-bottom: -10px;
+  }
+  
+  textarea{
+    resize: vertical;
+    min-height: 8em;
+    max-height: 16em;
+    
+  
+  }
+  
+  
+  select{
+    height: 2.5em;
+    width: 100%;
+    min-height: 2em;
+    color: rgba(190, 192, 214, 0.9);
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    background-color: #57577e;
+    padding-left: 10px;
+    border-radius: 5px;
+  
+    
+  }
+  
+  label[for="feature"]{
+    padding-top: 15px;
+  }
+  
+  label[for="improve"]{
+    margin-bottom: -10px;
+    
+  }
+  
+  option{
+    color: rgba(190, 192, 214, 0.9);
+    height: 2.5em
+  
+  }
+  
+  .inline {
+    width: unset;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0 0.4em 0 0;
+    vertical-align: middle;
+    
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #2d2d44;
+    min-width: 300px;
+    
+  }
+  
+  input[type="radio"]{
+    height: 5px;
+  }
+  
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  a{
+    color: #dfdfe2;
+  }
+  
+  ::placeholder{
+    color: rgba(190, 192, 214, 0.9);
+    
+    padding-top:  2px;
+    font-size: 16px;
+  }
+  
+  
+  
